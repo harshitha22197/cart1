@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Al-safa Shopping Cart</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1><img src="https://raw.githubusercontent.com/harshitha22197/HrServices/main/Al_safa_new_logo_80x%402x.webp">Cart Details</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://alsafahalal.com/wp-content/uploads/2021/02/Flatbread-Aloo-Paratha-3pc-00020-LR.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title"><b>Aloo Parathas🥙</b></div>
+      <p class="product-description">Whole wheat pan-fried flatbread stuffed with a spicy potato filling.This is best enjoyed with yogurt, pickle, butter and a side of chai!</p>
+    </div>
+    <div class="product-price">4.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">4.99</div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://alsafahalal.com/wp-content/uploads/2018/08/Flatbread-00003-Sheermal.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Sheermal Bread🥙</div>
+      <p class="product-description">Made with maida, ghee, milk, saffron and sugar, this delicious sweet paratha is a treat for the taste buds.</p>
+    </div>
+    <div class="product-price">5.49</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">5.49</div>
+  </div>
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">10.48</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">3.60</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">15.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">29.08</div>
+    </div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
+
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
